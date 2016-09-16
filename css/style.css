@@ -1,0 +1,101 @@
+/*common styles*/
+
+ul, li {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+	margin: 0;
+}
+
+/*main styles*/
+
+.container {
+	max-width: 1030px;
+}
+
+
+
+/* ------------------------>>> sliderSimple <<<----------------------------------------------------- */
+
+/* sliderSimple */
+.sliderSimple__wrapper {
+	position: relative;
+	padding: 0px 67px 0px;
+	background: #0a0a0a;
+}
+
+.sliderSimple__viewport {
+	overflow: hidden;
+}
+
+.sliderSimple__list {
+	position: relative;
+	overflow: hidden;
+	width: 100000px;
+}
+
+.sliderSimple__item {
+	display: block;
+	float: left;
+
+}
+
+/* styles of .sliderSimple__prev and .sliderSimple__next */
+.sliderSimple__prev,
+.sliderSimple__next {
+	height: 211px;
+	width: 50px;
+	position: absolute;
+}
+
+.sliderSimple__prev:hover,
+.sliderSimple__next:hover {
+	cursor: pointer;
+}
+
+.sliderSimple__prev {
+	background: url(../img/prev.png) 0 0 no-repeat;
+	left: 0;
+	top: 50%;
+	margin-top: -105px;
+}
+
+.sliderSimple__next {
+	background: url(../img/next.png) 0 0 no-repeat;
+	right: 0;
+	top: 50%;
+	margin-top: -105px;
+}
+
+/* styles of content of .sliderSimple__item */
+.sliderSimple__link {
+	display: block;
+	float: left;
+
+	width: 16.16628%;
+	margin: 0 1.9%;
+}
+
+.sliderSimple__img {
+	display: inline-block;
+	width: 100%;
+	height: auto;
+}
+
+/* ------------------------>>> sliderSimple End <<<------------------------------------------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
